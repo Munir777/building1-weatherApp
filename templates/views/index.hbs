@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Building1</title>
+</head>
+<body>
+
+   {{>header}}
+   <div class="box">
+                <p>Building 1 Server</p>
+   </div>
+   <div class="main-box">
+             <div class="leftSide">
+                    <div class="inputBox">
+                        <div id="SP">
+                              <label for="textSpace">Enter A City</label>
+                        </div>
+                        <div id="SP">
+                              <input type="text" class="textSpace" id="firstS" name="textSpace">
+                        </div>
+                        <div id="SP">
+                              <input type="button" id="submiter" value="Submit">
+                        </div>
+                        
+                    </div>
+             </div>
+             <div class="rightSide">
+                        <div class="rightBox">
+                               <p id="weatherFeed">Current weather</p>
+                        </div>
+             </div>
+
+   </div>
+
+   {{>footer}}
+
+
+
+
+
+    <script type="module" src="/js/java.js"></script>
+    
+</body>
+</html>

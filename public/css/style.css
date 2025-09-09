@@ -1,0 +1,124 @@
+.navTop a {
+         text-decoration: none;
+}
+
+.navTop li{
+         display: inline;
+         margin: 20px;
+         
+}
+.navTop {
+         text-align: right;
+         padding: 20px;
+
+}
+
+.box p{
+         font-size: large;
+         color: blueviolet;
+         padding: 10px;
+
+}
+
+.box {
+        border: 10px solid cornflowerblue;
+        text-align: center;
+}
+
+.rightBox p{
+         color: aliceblue;
+         transform: translateY(0%);
+}
+
+.rightBox li{
+         text-decoration: none;
+}
+
+.rightBox {
+         background-color: rgba(58, 60, 62, 0.5);
+         text-align: center;
+         height: 450px;
+         width: 300px;
+         margin: auto;
+         border-radius: 10px;
+         
+         
+}
+
+.rightSide {
+         height: 500px;
+         background-image: url("/images/rain-1265201_1280.png");
+         background-size: 100%;
+         background-repeat: none;
+         width: 50%;
+         display: flex;
+         float: right;
+        
+}
+
+.inputBox{
+        display: block;
+        justify-content: center;
+        padding: 20px;
+        transform: translateY(100%);
+}
+
+.inputBox:hover {
+        border: 1px solid rgb(121, 161, 208);
+        width: 250px;
+        margin-left: 30px;
+        border-radius: 3px;
+        transition: 1s;
+        background-color: rgb(121, 161, 208, .5);
+}
+
+#SP {
+    padding: 10px;
+}
+
+.textSpace{
+         width: 220px;
+         height: 30px;
+         border: 1px solid rgb(149, 148, 148);
+}
+
+#submiter {
+         width: 225px;
+         height: 30px;
+}
+
+.leftSide {
+         height:  500px;
+         background-color: rgb(239, 239, 237);
+         width: 50%; 
+         display: inline-block;
+    
+        
+}
+
+.main-box {
+         padding-top: 10px;
+         padding-bottom: 10px;
+         height: 500px;
+         
+         
+}
+
+.base a {
+        text-decoration: none;
+        transform: translateY(50px);
+       
+}
+
+ .base li {
+         display: inline; 
+         padding: 20px;  
+        }
+
+.base { 
+         margin-top: 20px;
+         height: 200px;
+         background-color: blanchedalmond;
+         text-align: center;
+        
+}
