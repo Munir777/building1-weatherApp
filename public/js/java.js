@@ -70,11 +70,7 @@ sub.addEventListener("click", ()=>{
                                              <p>Country ${country}</p>
                                              
                     `
-                    // callBack({
-                    //     userId:  data[1].userId,
-                    //     id: data[1].id,
-                    //     title: data[1].title
-                    // })
+            
           })
 }
 
