@@ -7,6 +7,7 @@ const hbs = require("hbs");
 
 
 const app = express();
+const port = process.env.PORT || 3000
 
 //Path to the Static File
 const pathToStatic = path.join(__dirname, "../public")
@@ -45,7 +46,7 @@ app.get("/weather", (req, res)=>{
 
 
 
-app.listen(3000, ()=>{
+app.listen(port, ()=>{
 
         console.log("Server Is Up")
 
